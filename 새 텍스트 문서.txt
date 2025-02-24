@@ -1,0 +1,60 @@
+비쥬얼 스튜디오 코드
+
+
+-------------
+git add .
+git commit -m
+git push origin master
+
+오픈소스
+git hub
+fork
+creat fork
+
+ git clone -
+
+
+------
+python
+
+python -m venv venv
+source venv/Scripts/activate
+jupyter 
+pip install jupyterlab  = 설치
+jupyter lab
+
+폴더이동
+cd ../폴더명/
+
+안녕하세요 컬링종목의 오래된 팬이에요
+표정민 선수 덕분에 이번 경기 감동적으로 봤어요
+메달 축하드려요
+
+https://www.toptal.com/developers/gitignore
+-------------
+
+노마드 코더
+긱뉴스
+해커뉴스
+
+
+-------------
+가상환경
+$ python -m venv venv
+$ source venv/Scripts/activate
+$ pip install jupyterlab
+
+gitignore - 파이썬, 윈도우, 맥 설정 후 복사
+
+.gitignore 파일 만들어서 ignore 복붙
+
+----
+$ pip install numpy
+$ pip install pandas
+$ pip list - 사용하는 라이브러리 목록
+$ pip freeze
+$ pip freeze >> requirement.txt - 프리즈 목록 저장
+$ pip install -r requirements.txt -  requirements.txt 기준으로 모듈 설치
+$ git init
+
+$ pip install openpyxl
