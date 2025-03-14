@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""><!--div=영역을 나눔, 네모로 묶어줌-->
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" type="text">
+        </div>
+        <div>
+            <label for="date">Date : </label>
+            <input type="date" name="date" id="date">
+        </div>
+        <hr>
+            <h3>샌드위치 선택</h3>
+            <input type="radio" name="menu" value="egg" id="egg">
+            <label for="egg">에그마요</label>
+            <input type="radio" name="menu" value="blt" id="blt">
+            <label for="">BLT</label>
+        <hr>
+            <h3>빵 사이즈</h3>
+            <input type="number" min="15" max="30" step="15" name="size">
+        <hr>
+            <h3>빵 종류</h3>
+            <select name="bread" id="">
+                <option value="honey">허니오트</option>
+                <option value="flat">플렛</option>
+            </select>
+
+        <hr>
+            <h3>야채</h3>
+            <input type="checkbox" id="1" name="cu">
+            <label for="1">오이</label>
+            <input type="checkbox" id="2" name="to">
+            <label for="2">토마토</label>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
